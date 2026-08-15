@@ -1,0 +1,45 @@
+<suite name="My Test Suite">
+
+    <test name="DemoLogin">
+        <classes>
+            <class name="test.Demoapps">
+                <methods>
+                    <include name="Testfield"/>
+                    <include name="LoginDetail"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="RadioButtonTest">
+        <classes>
+            <class name="test.Demoapps">
+                <methods>
+                    <include name="ButtonLink"/>
+                    <include name="Check"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="TestGoogle">
+        <classes>
+            <class name="test.FirstTest">
+                <methods>
+                    <include name="testGoogle"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="TestFacebook">
+        <classes>
+            <class name="test.FirstTest">
+                <methods>
+                    <include name="testFacebook"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
